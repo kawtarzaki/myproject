@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#A{
+    background-color: #1c1c1c;
+    width: 400px;
+    height: 600px;
+
+}
+.rom{
+display: flex;
+height: 100px;
+
+
+}
+input[type="text"]{
+    flex: 1;
+    border: solid 18px #1c1c1c;
+    outline: none;
+    background-color: rgb(131, 129, 129);
+    color:black;
+    font-size: 2em;
+    padding: 0 10px;
+    
+
+
+}
+button{
+    flex: 2;
+    border: black 8px solid;
+    outline: none;
+    background-color:white;
+    color: black;
+    font-size: 2em;
+    
+    
+}
+button:hover{
+    background-color: #434141;
+    cursor: pointer;
+}
+.Q{
+    background-color: red;
+}
